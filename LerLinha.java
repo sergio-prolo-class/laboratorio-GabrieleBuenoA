@@ -1,4 +1,4 @@
-import java.until.Scanner;
+import java.util.Scanner;
 
 public class LerLinha {
     public static void main(String[] args) {
