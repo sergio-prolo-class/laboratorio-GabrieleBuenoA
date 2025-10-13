@@ -5,6 +5,7 @@ public class Fahrenheit {
         Scanner sc = new Scanner(System.in);
     
         System.out.println("Insira a temperatura Fahrenheit");
+        
         double numFahrenheit  = sc.nextDouble(); 
 
         double numCelcius = (numFahrenheit - 32)*(5.0/9);
