@@ -1,3 +1,4 @@
+package práticas_durante_aula;
 import java.util.Scanner;
 
 public class LerLinha {
