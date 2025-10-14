@@ -1,3 +1,5 @@
+package Lista_5;
+
 import java.util.Scanner;
 
 public class barras2 {
