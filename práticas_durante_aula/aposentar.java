@@ -13,7 +13,12 @@ public class aposentar {
         System.out.println("Insira o tempo de serviço.");
         int t_servico = sc_t_servico.nextInt();
 
-        if (idade > 65 && t_servico )     ;
-
-    
+        if ((idade >= 65 && t_servico >= 25) || (idade >= 60 && t_servico >= 30)){;
+            System.out.println("Pode se aposentar. %n");
+        } else { 
+            System.out.println("Não pode se aposentar.%n");
+        }
+        sc_idade.close();
+        sc_t_servico.close();
     }
+}
