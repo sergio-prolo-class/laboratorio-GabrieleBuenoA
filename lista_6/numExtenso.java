@@ -89,10 +89,11 @@ public class numExtenso {
             palavra_unidade = "oito"; 
         } else if (unidade == 9) { 
             palavra_unidade = "nove";
+        } else if (unidade == 0) { 
+            palavra_unidade = "dez";
         }
 
        
-
         if (((numero % 10) != 0) & (numero >= 20)) {
             System.out.printf("Número por extenso: %s e %s %n", palavra_dezena, palavra_unidade);
         }   else if (numero <= 10) {
